@@ -26,4 +26,26 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## As of right now our code is only able to run on my computer and everyone else is getting a styling error and firebase osverable error. 
+## It is required to install these modules below once above has been installed
+once you are in the project directory
+cd projectname
+
+npm install bootstrap
+npm install firebase @angular/fire --save
+npm install ngx-toastr --save
+npm install @angular/animations --save
+npm install ngx-pagination --save
+
+Add these to your angular.json file
+"styles": [
+     "node_modules/bootstrap/dist/css/bootstrap.min.css",
+     "src/styles.css",
+     "node_modules/@fortawesome/fontawesome-free/css/all.css"
+]
+
+ng serve --open to start the server and application 
+
+login for admin is drkxamas@gmail.com and password is DRKxamas12345
+you are able to fully test the application with the info above. 
+
+Currently this application only works on my laptop so far please email me for meetup. 
