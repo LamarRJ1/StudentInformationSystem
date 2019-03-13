@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AppComponent } from './app.component';
+
 
 // Reactive Form
 import { ReactiveFormsModule } from "@angular/forms";
@@ -9,7 +9,7 @@ import { ReactiveFormsModule } from "@angular/forms";
 import { AppRoutingModule } from './shared/routing/app-routing.module';
 
 // App components
-
+import { AppComponent } from './app.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
