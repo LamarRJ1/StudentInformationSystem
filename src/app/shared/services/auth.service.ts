@@ -1,6 +1,5 @@
 import { Injectable, NgZone } from '@angular/core';
 import { User } from "../services/user";
-import { Student } from "../services/student";
 import { auth } from 'firebase/app';
 import { AngularFireAuth } from "@angular/fire/auth";
 import { AngularFirestore, AngularFirestoreDocument } from '@angular/fire/firestore';
@@ -95,10 +94,10 @@ export class AuthService {
     return (user !== null && user.emailVerified !== false) ? true : false;
   }
 
-  /* Sign in with Google
+  /*  Sign in with Google */
   GoogleAuth() {
     return this.AuthLogin(new auth.GoogleAuthProvider());
-  }  
+  }   
 
   // Auth logic to run auth providers
   AuthLogin(provider) {
@@ -112,7 +111,7 @@ export class AuthService {
       window.alert(error)
     })
   }
-	*/
+
   /* Setting up user data when sign in with username/password, 
   sign up with username/password and sign in with social auth  
   provider in Firestore database using AngularFirestore + AngularFirestoreDocument service */

@@ -47,3 +47,5 @@ ng serve --open to start the server and application
 
 login for admin is drkxamas@gmail.com and password is DRKxamas12345
 you are able to fully test the application with the info above. 
+
+Currently this application only works on my laptop so far please email me for meetup. 
